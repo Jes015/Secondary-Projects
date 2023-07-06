@@ -1,0 +1,13 @@
+---
+import { CRoutes } from "../models";
+---
+
+<nav>
+    <ul>
+        {
+            Object.entries(CRoutes).map(([keyValue, routeValue]) => (
+                <a href={routeValue}>{keyValue}</a>
+            ))
+        }
+    </ul>
+</nav>
