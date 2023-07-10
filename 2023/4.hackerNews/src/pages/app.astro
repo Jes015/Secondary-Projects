@@ -1,0 +1,10 @@
+---
+import { LastNews } from "@src/components/";
+import Layout from "@src/layouts/Layout.astro";
+---
+
+<Layout title="Hacker news">
+    <div class="h-full overflow-y-auto">
+        <LastNews client:load />
+    </div>
+</Layout>

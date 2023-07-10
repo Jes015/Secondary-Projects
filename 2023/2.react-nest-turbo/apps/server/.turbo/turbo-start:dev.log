@@ -1,0 +1,162 @@
+
+> server@0.0.1 start:dev /home/jes/.projects/dwebProjects/temp-projects/projects/2.react-nest-turbo/apps/server
+> nest start --watch
+
+c[[90m10:04:17 AM[0m] Starting compilation in watch mode...
+
+[[90m10:04:20 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:21 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +82ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +118ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +15ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75164  - [39m07/04/2023, 10:04:22 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+c[[90m10:06:45 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:06:45 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +77ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +87ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +9ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75275  - [39m07/04/2023, 10:06:47 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+c[[90m10:06:47 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:06:47 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +64ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +77ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75327  - [39m07/04/2023, 10:06:48 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+c[[90m10:06:50 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:06:50 AM[0m] Found 0 errors. Watching for file changes.
+
+c[[90m10:06:52 AM[0m] File change detected. Starting incremental compilation...
+
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +127ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +189ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +20ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 75340  - [39m07/04/2023, 10:06:52 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+[[90m10:06:52 AM[0m] Found 0 errors. Watching for file changes.
+
+c[[90m10:06:53 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:06:53 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +69ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +88ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75400  - [39m07/04/2023, 10:06:54 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+c[[90m10:08:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:08:10 AM[0m] Found 0 errors. Watching for file changes.
+
+c[[90m10:08:11 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:08:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +76ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +105ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +10ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75506  - [39m07/04/2023, 10:08:13 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +8ms[39m
+c[[90m10:11:18 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/products/products.service.ts[0m:[93m88[0m:[93m5[0m - [91merror[0m[90m TS1003: [0mIdentifier expected.
+
+[7m88[0m     })
+[7m  [0m [91m    ~[0m
+
+[[90m10:11:18 AM[0m] Found 1 error. Watching for file changes.
+
+c[[90m10:11:23 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:11:23 AM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +94ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCommonModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +95ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mProductsModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mProductsController {/api/products}:[39m[38;5;3m +14ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, PATCH} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/products/:id, DELETE} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 75672  - [39m07/04/2023, 10:11:25 AM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+ ELIFECYCLE  Command failed.

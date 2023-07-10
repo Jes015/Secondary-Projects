@@ -1,6 +1,4 @@
 node_modules
-dist
 mongo
 postgres
-.env
-.turbo
+dist

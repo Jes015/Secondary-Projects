@@ -1,0 +1,19 @@
+---
+import Layout from "@src/layouts/Layout.astro";
+import { CRoutes } from "@src/models";
+---
+
+<Layout title="Hacker News">
+	<main class="h-full flex flex-col">
+		<div class="m-52 grow h-full flex items-center flex-col gap-4">
+			<span class="text-center capitalize text-5xl">
+				Noticias de ultimo momento
+			</span>
+			<a
+				href={CRoutes.app}
+				class="p-4 bg-backgroundmain rounded-md capitalize"
+				>Ver noticias</a
+			>
+		</div>
+	</main>
+</Layout>
