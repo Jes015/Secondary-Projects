@@ -18,4 +18,14 @@
     docker-compose up -d
     ```
 
-3.
+4. start dev server
+
+    ```bash
+    pnpm/npm/yarn start:dev
+    ```
+
+5. seed db
+
+    ```bash
+    http://localhost:3000/api/seed
+    ```
