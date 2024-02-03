@@ -8,9 +8,9 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { UUID } from 'crypto';
+import { User } from 'src/auth/entities/user.entity';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { validateUUIDV4 } from 'src/common/utils/uuid.util';
-import { SeedProduct } from 'src/seed/data';
 import { DataSource, Repository } from 'typeorm';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
@@ -30,7 +30,7 @@ export class ProductsService {
     this.logger = new Logger('ProductsService');
   }
 
-  async create(createProductDto: CreateProductDto) {
+  async create(createProductDto: CreateProductDto, user: User) {
     try {
       const { images = [], ...productDetails } = createProductDto;
 
@@ -39,6 +39,7 @@ export class ProductsService {
         images: images.map((imageURL) =>
           this.productImage.create({ url: imageURL }),
         ),
+        user,
       });
 
       await this.productRepository.save(newProduct);
@@ -90,13 +91,14 @@ export class ProductsService {
     return productFound;
   }
 
-  async update(id: UUID, updateProductDto: UpdateProductDto) {
+  async update(id: UUID, updateProductDto: UpdateProductDto, user: User) {
     const { images = [], ...productDetails } = updateProductDto;
 
     const product = await this.productRepository.preload({
       id,
       ...productDetails,
       images: images as unknown as ProductImage[],
+      user,
     });
 
     if (product == null)
@@ -156,18 +158,5 @@ export class ProductsService {
     } catch (error) {
       this.handleDBExceptions(error);
     }
-  };
-
-  public insertManyProducts = async (productsSeed: SeedProduct[]) => {
-    const promises: Array<Promise<SeedProduct>> = [];
-
-    productsSeed.forEach((product) => {
-      // @ts-expect-error lo espero totalmente
-      promises.push(this.create(product));
-    });
-
-    await Promise.allSettled(promises);
-
-    return 'OK';
   };
 }

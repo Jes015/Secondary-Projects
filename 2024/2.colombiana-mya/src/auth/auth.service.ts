@@ -1,10 +1,12 @@
 import {
+  BadRequestException,
   ConflictException,
   Injectable,
   InternalServerErrorException,
   Logger,
   UnauthorizedException,
 } from '@nestjs/common';
+import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { compareSync, hashSync } from 'bcrypt';
 import { Repository } from 'typeorm';
@@ -18,6 +20,7 @@ export class AuthService {
   constructor(
     @InjectRepository(User)
     private userRepository: Repository<User>,
+    private jwtService: JwtService,
   ) {
     this.logger = new Logger('AuthService');
   }
@@ -25,7 +28,7 @@ export class AuthService {
   async signIn(signInUserDTO: SignInUserDTO) {
     const userFound = await this.userRepository.findOne({
       where: { email: signInUserDTO.email },
-      select: { email: true, password: true },
+      select: { email: true, password: true, id: true },
     });
 
     if (userFound == null) {
@@ -41,8 +44,11 @@ export class AuthService {
       throw new UnauthorizedException('Invalid credentials');
     }
 
-    return 'AUTHENTICATED SUCCESSFULLY';
-    // TODO: return jwt
+    const jwtToken = {
+      ...userFound,
+      token: this.getJwtToken({ id: userFound.id }),
+    };
+    return jwtToken;
   }
 
   async signUp(registerUserDTO: RegisterUserDTO) {
@@ -55,12 +61,31 @@ export class AuthService {
       const userData: Partial<typeof user> = structuredClone(user);
       delete userData.password;
 
-      return userData;
-
-      // TODO: return jwt
+      const jwtToken = {
+        ...userData,
+        token: this.getJwtToken({ id: userData.id }),
+      };
+      return jwtToken;
     } catch (error) {
       this.handleDBExceptions(error);
     }
+  }
+
+  private getJwtToken(payload: any) {
+    return this.jwtService.sign(payload);
+  }
+
+  public async checkJwtToken(user: User) {
+    if (user == null) {
+      throw new BadRequestException('You need to provide an user id');
+    }
+
+    const dataToReturn = {
+      ...user,
+      token: this.getJwtToken({ id: user.id }),
+    };
+
+    return dataToReturn;
   }
 
   private handleDBExceptions(error: any): never {

@@ -1,1 +1,1 @@
-export * from './product.data';
+export * from './seed.data';
