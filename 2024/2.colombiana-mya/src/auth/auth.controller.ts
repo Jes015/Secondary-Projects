@@ -1,13 +1,14 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
+import { ApiTags } from '@nestjs/swagger';
 import { AuthService } from './auth.service';
 import { Auth } from './decorators/auth.guard';
 import { GetUser } from './decorators/get-user.detocator';
-import { GetHeaders } from './decorators/raw-headers.decorator';
 import { SignInUserDTO } from './dto';
 import { RegisterUserDTO } from './dto/user-register.dto';
 import { User } from './entities/user.entity';
 import { CValidRoles } from './models/roles.model';
 
+@ApiTags('Auth')
 @Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
@@ -30,10 +31,7 @@ export class AuthController {
 
   @Get('private')
   @Auth(CValidRoles.user, CValidRoles.admin)
-  testingPrivateRoute(
-    @GetHeaders() headers: string[],
-    @GetUser('roles') user: string[],
-  ) {
+  testingPrivateRoute() {
     return {
       ok: true,
     };

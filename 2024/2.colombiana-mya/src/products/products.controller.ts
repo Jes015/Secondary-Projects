@@ -9,6 +9,7 @@ import {
   Post,
   Query,
 } from '@nestjs/common';
+import { ApiTags } from '@nestjs/swagger';
 import { UUID } from 'crypto';
 import { Auth } from 'src/auth/decorators/auth.guard';
 import { GetUser } from 'src/auth/decorators/get-user.detocator';
@@ -21,6 +22,7 @@ import { UpdateProductDto } from './dto/update-product.dto';
 import { ProductsService } from './products.service';
 
 @Controller('products')
+@ApiTags('Products')
 @Auth()
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
